@@ -6,8 +6,8 @@ on:
   workflow_dispatch:
 
 env:
-  REGISTRY: ghcr.io
-  IMAGE_NAME: ${{ github.repository_owner }}/blog/app
+  REGISTRY: ghcr.io/${{ github.repository_owner }}
+  IMAGE_NAME: blog
 
 permissions:
   contents: write
