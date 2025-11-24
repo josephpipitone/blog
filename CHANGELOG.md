@@ -1,3 +1,9 @@
+## [1.1.2](https://github.com/josephpipitone/blog/compare/v1.1.1...v1.1.2) (2025-11-24)
+
+### 🐛 Bug Fixes
+
+* updating author page ([c0416f0](https://github.com/josephpipitone/blog/commit/c0416f0def734ca29d6c6b67ea166a7e015f5f86))
+
 ## [1.1.1](https://github.com/josephpipitone/blog/compare/v1.1.0...v1.1.1) (2025-11-24)
 
 ### 🐛 Bug Fixes
