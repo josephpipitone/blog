@@ -1,11 +1,11 @@
 import type { IconMap, SocialLink, Site } from '@/types'
 
 export const SITE: Site = {
-  title: 'josephpipitone',
+  title: 'pipitone_labs',
   description:
     'astro-erudite is a opinionated, unstyled blogging template—built with Astro, Tailwind, and shadcn/ui.',
-  href: 'https://blog.tslamars.com',
-  author: 'josephpipitone',
+  href: 'https://blog.pipitonelabs.com',
+  author: 'jpipitone',
   locale: 'en-US',
   featuredPostCount: 2,
   postsPerPage: 3,

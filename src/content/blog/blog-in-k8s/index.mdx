@@ -3,47 +3,9 @@ title: 'Blog in K8s'
 description: 'Why I chose to run this Astro-based website in Kubernetes'
 date: 2025-11-24
 tags: ['kubernetes', 'astro', 'blog']
-authors: ['tslamars']
+authors: ['jpipitone']
 ---
 
 Why I chose to run this Astro-based website in Kubernetes
 
-As a developer who loves static site generators, I've been using Astro for building fast, content-focused websites. Astro's zero-JavaScript-by-default approach and excellent performance make it perfect for blogs. But when it came to deploying and managing this blog, I wanted something more robust than traditional hosting. That's why I decided to run it in Kubernetes.
-
-## Why Kubernetes?
-
-Kubernetes offers several advantages for deploying web applications, even static sites:
-
-### Scalability
-Even though this is a blog with relatively low traffic, Kubernetes allows me to scale effortlessly if needed. I can easily add more replicas or adjust resources based on demand.
-
-### Containerization
-By containerizing the Astro build, I ensure consistency across different environments. The same container that builds locally can run in production.
-
-### CI/CD Integration
-Kubernetes integrates seamlessly with modern CI/CD pipelines. I can automate deployments using tools like GitHub Actions, ensuring that every push to the main branch triggers a new build and deployment.
-
-### Infrastructure as Code
-Defining my deployment in YAML files means I can version control my infrastructure alongside my code. This makes it easy to reproduce environments and roll back if needed.
-
-## The Setup
-
-I use a simple Kubernetes deployment with:
-- A Deployment for the Astro app
-- A Service to expose it
-- An Ingress for external access
-- Optionally, a ConfigMap for environment variables
-
-The Astro build process generates static files, which are served by a lightweight web server like Nginx inside the container.
-
-## Challenges and Solutions
-
-One challenge was optimizing the container size. Astro builds are typically small, but I made sure to use multi-stage Docker builds to keep the final image lean.
-
-Another consideration was caching. Since this is a static site, I leverage Kubernetes' ability to handle static assets efficiently.
-
-## Conclusion
-
-Running an Astro blog in Kubernetes might be overkill for some, but for me, it provides the flexibility and control I need. It future-proofs the deployment and allows me to experiment with more complex setups if the blog grows.
-
-If you're considering a similar setup, I'd recommend starting small and scaling up as needed. Kubernetes has a learning curve, but the benefits are worth it for serious projects.
+Placeholder
